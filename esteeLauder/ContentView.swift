@@ -2,25 +2,51 @@
 //  ContentView.swift
 //  esteeLauder
 //
-//  Created by Saurabh Mishra on 7/11/23.
+//  Created by Diya Mishra on 7/11/23.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
+        NavigationView{
+        VStack(spacing: 1) {
+            Text("Nutritious")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+                .foregroundColor(Color(red: 0.998, green: 0.432, blue: 0.548))
+                .padding()
+            //FIX - FONT NEEDS TO BE CHANGED TO EL BRAND FONT !!!
+            Image("hpimage")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 350, height: 350)
+                .cornerRadius(10)
+                .padding()
+            NavigationLink(destination: page2()) {
+                Text("Shop the Look")
+                    .font(.body)
+                    .fontWeight(.bold)
+                    .padding()
+                    .background(Color(red: 0.998, green: 0.432, blue: 0.548))
+                    .foregroundColor(.white)
+                    .cornerRadius(7)
+                    .padding()
+            }//end of navlink
+            
+            Image("logo")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .foregroundColor(Color.white)
+                .frame(width: 175, height: 75)
+        }//end of vstack
         .padding()
-    }
-}
+    }//end of navview
+    }//end of body
+}//end of struct
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
-}
+}//end of struct
