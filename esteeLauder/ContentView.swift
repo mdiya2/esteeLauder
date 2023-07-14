@@ -11,12 +11,12 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
         VStack(spacing: 1) {
-            Text("Nutritious")
-                .font(.largeTitle)
-                .fontWeight(.bold)
-                .foregroundColor(Color(red: 0.998, green: 0.432, blue: 0.548))
-                .padding()
-            //FIX - FONT NEEDS TO BE CHANGED TO EL BRAND FONT !!!
+            
+            Image("hptitle")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .foregroundColor(Color.white)
+                .frame(width: 175, height: 75)
             Image("hpimage")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
