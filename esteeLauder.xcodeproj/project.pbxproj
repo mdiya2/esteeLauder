@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		090F9A542A60E44D001EA063 /* puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090F9A532A60E44D001EA063 /* puzzle.swift */; };
+		090F9A562A6168C0001EA063 /* game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090F9A552A6168C0001EA063 /* game.swift */; };
 		092210862A5FA23400A3D0C8 /* page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092210852A5FA23400A3D0C8 /* page2.swift */; };
 		09923D992A5E0D2200D69651 /* esteeLauderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09923D982A5E0D2200D69651 /* esteeLauderApp.swift */; };
 		09923D9B2A5E0D2200D69651 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09923D9A2A5E0D2200D69651 /* ContentView.swift */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		090F9A532A60E44D001EA063 /* puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = puzzle.swift; sourceTree = "<group>"; };
+		090F9A552A6168C0001EA063 /* game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = game.swift; sourceTree = "<group>"; };
 		092210852A5FA23400A3D0C8 /* page2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page2.swift; sourceTree = "<group>"; };
 		09923D952A5E0D2200D69651 /* esteeLauder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = esteeLauder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09923D982A5E0D2200D69651 /* esteeLauderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = esteeLauderApp.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				09923D9A2A5E0D2200D69651 /* ContentView.swift */,
 				092210852A5FA23400A3D0C8 /* page2.swift */,
 				090F9A532A60E44D001EA063 /* puzzle.swift */,
+				090F9A552A6168C0001EA063 /* game.swift */,
 				09923D9C2A5E0D2400D69651 /* Assets.xcassets */,
 				09923D9E2A5E0D2400D69651 /* Preview Content */,
 			);
@@ -265,6 +268,7 @@
 			files = (
 				09923D9B2A5E0D2200D69651 /* ContentView.swift in Sources */,
 				090F9A542A60E44D001EA063 /* puzzle.swift in Sources */,
+				090F9A562A6168C0001EA063 /* game.swift in Sources */,
 				09923D992A5E0D2200D69651 /* esteeLauderApp.swift in Sources */,
 				092210862A5FA23400A3D0C8 /* page2.swift in Sources */,
 			);

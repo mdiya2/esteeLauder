@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct page2: View {
-    @State private var isPresentingPuzzle = false
+    @State private var isPresentingGame = false
     var body: some View {
         ScrollView {
             VStack{
@@ -78,7 +78,7 @@ struct page2: View {
                     }//end of zstack
                 }//end of hstack
                 Button(action: {
-                    isPresentingPuzzle = true
+                    isPresentingGame = true
                 }) {
                     Text("What is the best skincare for you?")
                         .fontWeight(.bold)
@@ -87,8 +87,8 @@ struct page2: View {
                 .font(.title2)
                 .buttonStyle(.borderedProminent)
                 .tint(Color(red: 0.998, green: 0.432, blue: 0.548))
-                .sheet(isPresented: $isPresentingPuzzle) {
-                    puzzle()
+                .sheet(isPresented: $isPresentingGame) {
+                    Game()
                 }//end of vstack
             }//end of scroll view
             
